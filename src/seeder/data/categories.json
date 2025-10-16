@@ -1,0 +1,22 @@
+[
+  {
+    "_id": "665e7f1fe749e3a843b7ca11",
+    "name": "Electronics",
+    "slug": "electronics"
+  },
+  {
+    "_id": "665e7f1fe749e3a843b7ca12",
+    "name": "Clothing",
+    "slug": "clothing"
+  },
+  {
+    "_id": "665e7f1fe749e3a843b7ca13",
+    "name": "Home Appliances",
+    "slug": "home-appliances"
+  },
+  {
+    "_id": "665e7f1fe749e3a843b7ca14",
+    "name": "Footwear",
+    "slug": "footwear"
+  }
+]

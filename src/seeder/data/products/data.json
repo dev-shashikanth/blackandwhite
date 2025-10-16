@@ -1,0 +1,24 @@
+[
+  {
+    "_id": { "$oid": "665e7f1fe749e3a843b7cb01" },
+    "name": "iPhone 14",
+    "description": "Latest Apple smartphone.",
+    "price": 999,
+    "stock": 10,
+    "category": { "$oid": "665e7f1fe749e3a843b7ca11" },
+    "images": ["https://example.com/iphone14.jpg"],
+    "createdAt": { "$date": "2024-01-01T00:00:00.000Z" },
+    "updatedAt": { "$date": "2024-01-01T00:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "665e7f1fe749e3a843b7cb02" },
+    "name": "Nike T-Shirt",
+    "description": "Comfortable sportswear",
+    "price": 29.99,
+    "stock": 50,
+    "category": { "$oid": "665e7f1fe749e3a843b7ca12" },
+    "images": ["https://example.com/nike.jpg"],
+    "createdAt": { "$date": "2024-01-01T00:00:00.000Z" },
+    "updatedAt": { "$date": "2024-01-01T00:00:00.000Z" }
+  }
+]
