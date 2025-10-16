@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+/* body {
   overflow-x: hidden;
   font-family: "Times New Roman", Times, serif;
   letter-spacing: 0.03em;
-}
+} */
 
 /* body {
   font-family: Arial, Helvetica, sans-serif;

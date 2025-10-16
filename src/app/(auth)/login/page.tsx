@@ -99,11 +99,12 @@ const LoginPage = () => {
       exit="exit"
     >
       <Form {...form}>
-        <div className="flex justify-center">
-          <Avatar className="h-16 w-16">
+        <div className="flex flex-col items-center mb-6 space-y-6">
+          <p className=" text-2xl">Login</p>
+          {/* <Avatar className="h-16 w-16">
             <AvatarImage src="/assets/icons/b&wicon.ico" />
             <AvatarFallback>B&W</AvatarFallback>
-          </Avatar>
+          </Avatar> */}
         </div>
         <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
           <FormField

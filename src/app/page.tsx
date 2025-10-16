@@ -15,12 +15,11 @@ import { useEffect } from "react";
 
 const Home = () => {
   const images = [
-    "/assets/images/blackandwhite.jpeg",
-    "/assets/images/carousel-1.jpg",
-    "/assets/images/carousel-2.jpg",
-    "/assets/images/carousel-3.jpg",
-    "/assets/images/carousel-4.jpg",
-    "/assets/images/carousel-5.jpg",
+    "/assets/images/c2.jpg",
+    "/assets/images/c3.jpg",
+    "/assets/images/c4.jpg",
+    "/assets/images/c5.jpg",
+    "/assets/images/c6.jpg",
   ];
 
   const { data: session, status } = useSession();
@@ -40,13 +39,13 @@ const Home = () => {
           }}
           className="w-full h-full" // Prevents excessive width on large screens
         >
-          <CarouselContent className="flex flex-shrink-0">
+          <CarouselContent className="relative flex flex-shrink-0">
             {" "}
             {/* Ensures proper transition */}
             {images.map((src, index) => (
               <CarouselItem
                 key={index}
-                className="w-full h-[400px] flex-shrink-0"
+                className="relative w-full flex-shrink-0 h-[200px] md:h-[500px] "
               >
                 {/* Prevents shrinking issues */}
                 <Image
@@ -54,7 +53,6 @@ const Home = () => {
                   alt={`Slide ${index + 1}`}
                   fill
                   className="object-cover rounded-lg"
-                  priority
                 />
               </CarouselItem>
             ))}
